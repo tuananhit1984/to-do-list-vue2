@@ -1,0 +1,24 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "ram",
+            "price": 20
+        },
+        {
+            "id": 2,
+            "name": "cpu",
+            "price": 20
+        },
+        {
+            "id": 3,
+            "name": "hdd",
+            "price": 20
+        },
+        {
+            "id": 4,
+            "name": "sdd",
+            "price": 20
+        }
+    ]
+}

@@ -3,23 +3,35 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Add from '../views/Add.vue'
 import Edit from '../views/Edit.vue'
+import Product from '../views/Product.vue'
+import Cart from '../views/Cart.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',   
+    name: 'Home',
     component: Home
   },
   {
     path: '/add',
-    name: 'Add',   
+    name: 'Add',
     component: Add
   },
   {
+    path: '/product',
+    name: 'Product',
+    component: Product
+  },
+  {
+    path: '/cart',
+    name: 'Cart',
+    component: Cart
+  },
+  {
     path: '/edit/:id',
-    name: 'Edit',   
+    name: 'Edit',
     component: Edit
   },
   {
